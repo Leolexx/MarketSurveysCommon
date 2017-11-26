@@ -9,7 +9,8 @@ import lombok.Setter;
 
 /**
  * Available surveys
- * @author lev
+ * @author Leo
+ * @version 1.0
  *
  */
 @Getter @Setter
