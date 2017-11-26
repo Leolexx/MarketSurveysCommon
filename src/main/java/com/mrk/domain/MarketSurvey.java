@@ -21,7 +21,9 @@ public class MarketSurvey {
 		
 	}
 	
-	public MarketSurvey(Integer id, String subject, String gender, String country, Integer age, String currency, Integer income) {
+	public MarketSurvey(Integer id, String subject, String gender, 
+			String country, Integer age, String currency, Integer income,
+			String anyData) {
 		super();
 		this.id = id;
 		this.subject = subject;
@@ -30,6 +32,7 @@ public class MarketSurvey {
 		this.age = age;
 		this.currency = currency;
 		this.income = income;
+		this.anyData = anyData;
 	}
 
 	// Id 
@@ -60,5 +63,7 @@ public class MarketSurvey {
 	@Indexed 
 	private Integer income;
 	
+	// Any additional data
+	private String anyData;
 	
 }
